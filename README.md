@@ -21,7 +21,7 @@
 
 ---
 
-### `$ kubectl describe adventurer favashi`
+### `$ kubectl get adventurer favashi -o yaml`
 
 ```yaml
 apiVersion: marca.del.este/v1
@@ -30,42 +30,52 @@ metadata:
   name: favashi
   labels:
     clase: devops-and-developer
-    alineamiento: legal-automatizado      # si se hace dos veces, se hace un pipeline
-    campaña: aventuras-en-la-marca-del-este
+    # si se hace dos veces, es un pipeline
+    alineamiento: legal-automatizado
+    campaña: la-marca-del-este
 spec:
-  nivel: 9                      # nivel de nombre en B/X: ya tiene fortaleza propia
+  # nivel de nombre en B/X: con fortaleza
+  nivel: 9
   atributos:
-    FUE: 11   # levanta clústeres, no pesas
-    DES: 14   # atajos de teclado
-    CON: 17   # guardias de madrugada
+    FUE: 11  # levanta clústeres, no pesas
+    DES: 14  # atajos de teclado
+    CON: 17  # guardias de madrugada
     INT: 16
-    SAB: 15   # sabe cuándo NO desplegar un viernes
+    SAB: 15  # no despliega en viernes
     CAR: 13
   habilidades:
-    cloud: [aws, google-cloud, azure]
-    contenedores: [docker, kubernetes, docker-compose, nginx]
+    cloud: [aws, gcp, azure]
+    contenedores:
+      [docker, kubernetes, compose, nginx]
     ci-cd: [jenkins, github-actions]
-    infraestructura-como-código: [terraform, ansible]
-    observabilidad: [prometheus, grafana, elk-stack]
-    backend: [php, python, go, dotnet, nodejs, rest, graphql, microservicios]
-    arquitectura: [hexagonal, ddd, inyección-de-dependencias]
-    datos: [postgresql, mysql, sql-server, nosql]
-    frontend: [javascript, react, angularjs, html5, sass, pwa]
-    ia-y-automatización: [agentes, rag, llm, n8n, make, zapier]
+    iac: [terraform, ansible]
+    observabilidad:
+      [prometheus, grafana, elk]
+    backend:
+      [php, python, go, dotnet, nodejs]
+    apis: [rest, graphql, microservicios]
+    arquitectura: [hexagonal, ddd]
+    datos:
+      [postgresql, mysql, sql-server, nosql]
+    frontend:
+      [javascript, react, angularjs, pwa]
+    ia: [agentes, rag, llm, n8n, make]
     calidad: [phpunit, pgtap, playwright]
   idiomas: [español, catalán, inglés]
   equipo:
-    - makefile               # un «make help» para gobernarlos a todos
-    - docker-compose         # el entorno entero con un «make up»
-    - github-actions         # +2 a la automatización
-    - supabase               # postgres con RLS, cron y colas
-    - pgtap + playwright     # tirada de salvación contra regresiones
-    - dados de 20 caras      # varios, por si acaso
+    - makefile        # make help, y a jugar
+    - docker-compose  # el entorno: make up
+    - github-actions  # +2 a automatizar
+    - supabase        # postgres, RLS y cron
+    - pgtap           # salvación contra
+    - playwright      #   regresiones
+    - d20             # varios, por si acaso
   reliquias:
-    - arctic-code-vault      # código enterrado en Svalbard: sobrevivirá 1000 años
+    # en Svalbard, para 1000 años
+    - arctic-code-vault
   conjuros_preparados:
-    - «Reversión en caliente» (nivel 3)
-    - «Detectar pantallas en blanco» (nivel 1)
+    - reversión-en-caliente   # nivel 3
+    - detectar-pantallas-en-blanco
 status:
   hp: estable
   uptime: la mayoría de los días
@@ -101,18 +111,31 @@ flowchart LR
 ```
 
 - **Coste de infraestructura: 0 €.** Planes gratuitos, sin servicios externos para la monitorización.
-- **Calidad:** más de 170 tests de base de datos (pgTAP) y de extremo a extremo (Playwright) en cada cambio.
+- **Calidad:** <!-- AUTO:tests -->203<!-- /AUTO:tests --> tests de base de datos (pgTAP) y de extremo a extremo (Playwright) en cada cambio.
 - **Seguridad:** toda la lógica sensible con *Row Level Security* y funciones `security definer`; nada de claves en el cliente.
+
+### En curso
+
+<!-- AUTO:now -->
+- **Escriba de la Marca [v1.13.1](https://github.com/Favashi/escribadelamarca/releases/tag/v1.13.1)** · Corregido: en las misiones ya no aparece «()» cuando un libro no tiene código de publicación.
+- **OSR Manager [v0.4.0](https://github.com/Favashi/osr-manager/releases/tag/v0.4.0)**
+<!-- /AUTO:now -->
 
 ### Tirada de estadísticas
 
-<!-- Sin servicios de terceros: las cifras se actualizan a mano o con una Action. -->
+<!-- Se actualiza sola cada día con .github/workflows/update-readme.yml (datos públicos, sin servicios de terceros). -->
+<!-- AUTO:stats -->
 | | |
 |---|---|
-| Proyectos de rol publicados | 2 |
-| Publicaciones catalogadas en Escriba | 100+ |
-| Tests en CI | 200 |
+| Publicaciones en el catálogo de Escriba | 118 |
+| Autores de la Marca catalogados | 83 |
+| Aventuras en el buscador | 80 |
+| Libros registrados por los usuarios | 1.120 |
+| Tests en CI de Escriba | 203 |
 | Coste de infraestructura | 0 € |
+<!-- /AUTO:stats -->
+
+<sub>Actualizado automáticamente: <!-- AUTO:date -->2026-09-27<!-- /AUTO:date --></sub>
 
 <div align="center">
 
