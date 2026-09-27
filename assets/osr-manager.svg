@@ -1,17 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 260" width="440" height="260" role="img" aria-label="OSR Manager">
   <defs>
-    <pattern id="sl" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" fill-opacity=".28"/></pattern>
-    <radialGradient id="gl" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#0c2a10"/><stop offset="1" stop-color="#020b03"/></radialGradient>
-    <clipPath id="c2"><rect width="440" height="260" rx="10"/></clipPath>
+            <clipPath id="c2"><rect width="440" height="260" rx="10"/></clipPath>
   </defs>
   <g clip-path="url(#c2)" font-family="ui-monospace, Menlo, Consolas, 'Courier New', monospace">
-    <rect width="440" height="260" fill="url(#gl)"/>
-    <rect x="10" y="10" width="420" height="240" fill="none" stroke="#3dff5a" stroke-width="2"/>
-    <rect x="16" y="16" width="408" height="228" fill="none" stroke="#3dff5a" stroke-opacity=".5"/>
-    <polygon points="318,0 356,0 440,84 440,122" fill="#3dff5a"/>
-    <text transform="translate(388 55) rotate(45)" text-anchor="middle" font-size="8.5" font-weight="700" fill="#031b06">PORTABLE · SIN INSTALAR</text>
-    <text x="30" y="44" font-size="13" font-weight="700" fill="#3dff5a">OSR-01</text>
-    <g fill="#3dff5a" font-size="11" xml:space="preserve">
+    <rect width="440" height="260" fill="#0000aa"/>
+    <rect x="10" y="10" width="420" height="240" fill="none" stroke="#55ffff" stroke-width="2"/>
+    <rect x="16" y="16" width="408" height="228" fill="none" stroke="#55ffff" stroke-width="2"/>
+    <polygon points="318,0 356,0 440,84 440,122" fill="#ffff55"/>
+    <text transform="translate(388 55) rotate(45)" text-anchor="middle" font-size="8.5" font-weight="700" fill="#0000aa">PORTABLE · SIN INSTALAR</text>
+    <text x="30" y="44" font-size="13" font-weight="700" fill="#55ffff">OSR-01</text>
+    <g fill="#000000" font-size="11" xml:space="preserve" transform="translate(2 2)"><text x="30" y="74"> ██████╗ ███████╗██████╗ </text>
+      <text x="30" y="87">██╔═══██╗██╔════╝██╔══██╗</text>
+      <text x="30" y="100">██║   ██║███████╗██████╔╝</text>
+      <text x="30" y="113">██║   ██║╚════██║██╔══██╗</text>
+      <text x="30" y="126">╚██████╔╝███████║██║  ██║</text>
+      <text x="30" y="139"> ╚═════╝ ╚══════╝╚═╝  ╚═╝</text>
+    </g>
+    <g fill="#ffff55" font-size="11" xml:space="preserve">
       <text x="30" y="74"> ██████╗ ███████╗██████╗ </text>
       <text x="30" y="87">██╔═══██╗██╔════╝██╔══██╗</text>
       <text x="30" y="100">██║   ██║███████╗██████╔╝</text>
@@ -19,12 +24,11 @@
       <text x="30" y="126">╚██████╔╝███████║██║  ██║</text>
       <text x="30" y="139"> ╚═════╝ ╚══════╝╚═╝  ╚═╝</text>
     </g>
-    <text x="220" y="100" font-size="22" font-weight="700" fill="#b6ffc0">MANAGER</text>
-    <text x="220" y="120" font-size="10.5" fill="#7dff8f" letter-spacing="1">HERRAMIENTA PARA DIRECTORES</text>
-    <text x="220" y="134" font-size="10.5" fill="#7dff8f" letter-spacing="1">DE JUEGO OSR</text>
-    <text x="30" y="176" font-size="12" fill="#b6ffc0">&gt; exploración · hexcrawl · encuentros · combate</text>
-    <text x="30" y="196" font-size="12" fill="#b6ffc0">&gt; OSE · B/X · BECMI · LotFP · OD&amp;D · AD&amp;D 1e</text>
-    <text x="30" y="226" font-size="11" fill="#7dff8f">&gt; funciona sin conexión<tspan fill="#3dff5a">█</tspan></text>
-    <rect width="440" height="260" fill="url(#sl)"/>
+    <text x="220" y="100" font-size="22" font-weight="700" fill="#55ffff">MANAGER</text>
+    <text x="220" y="120" font-size="10.5" fill="#ffffff" letter-spacing="1">HERRAMIENTA PARA DIRECTORES</text>
+    <text x="220" y="134" font-size="10.5" fill="#ffffff" letter-spacing="1">DE JUEGO OSR</text>
+    <text x="30" y="176" font-size="12" fill="#ffffff">&gt; exploración · hexcrawl · encuentros · combate</text>
+    <text x="30" y="196" font-size="12" fill="#ffffff">&gt; OSE · B/X · BECMI · LotFP · OD&amp;D · AD&amp;D 1e</text>
+    <text x="30" y="226" font-size="11" fill="#aaaaaa">&gt; funciona sin conexión<tspan fill="#ffff55">█</tspan></text>
   </g>
 </svg>
