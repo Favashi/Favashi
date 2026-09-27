@@ -9,21 +9,7 @@
     <polygon points="318,0 356,0 440,84 440,122" fill="#ffff55"/>
     <text transform="translate(388 55) rotate(45)" text-anchor="middle" font-size="8.5" font-weight="700" fill="#0000aa">PORTABLE · SIN INSTALAR</text>
     <text x="30" y="44" font-size="13" font-weight="700" fill="#55ffff">OSR-01</text>
-    <g fill="#000000" font-size="11" xml:space="preserve" transform="translate(2 2)"><text x="30" y="74"> ██████╗ ███████╗██████╗ </text>
-      <text x="30" y="87">██╔═══██╗██╔════╝██╔══██╗</text>
-      <text x="30" y="100">██║   ██║███████╗██████╔╝</text>
-      <text x="30" y="113">██║   ██║╚════██║██╔══██╗</text>
-      <text x="30" y="126">╚██████╔╝███████║██║  ██║</text>
-      <text x="30" y="139"> ╚═════╝ ╚══════╝╚═╝  ╚═╝</text>
-    </g>
-    <g fill="#ffff55" font-size="11" xml:space="preserve">
-      <text x="30" y="74"> ██████╗ ███████╗██████╗ </text>
-      <text x="30" y="87">██╔═══██╗██╔════╝██╔══██╗</text>
-      <text x="30" y="100">██║   ██║███████╗██████╔╝</text>
-      <text x="30" y="113">██║   ██║╚════██║██╔══██╗</text>
-      <text x="30" y="126">╚██████╔╝███████║██║  ██║</text>
-      <text x="30" y="139"> ╚═════╝ ╚══════╝╚═╝  ╚═╝</text>
-    </g>
+    <g shape-rendering="crispEdges"><g fill="#000000" transform="translate(3 3)"><rect x="36.8" y="70" width="40.8" height="11"/><rect x="91.2" y="70" width="47.6" height="11"/><rect x="145.6" y="70" width="40.8" height="11"/><rect x="30.0" y="81" width="13.6" height="11"/><rect x="70.8" y="81" width="13.6" height="11"/><rect x="91.2" y="81" width="13.6" height="11"/><rect x="145.6" y="81" width="13.6" height="11"/><rect x="179.6" y="81" width="13.6" height="11"/><rect x="30.0" y="92" width="13.6" height="11"/><rect x="70.8" y="92" width="13.6" height="11"/><rect x="91.2" y="92" width="47.6" height="11"/><rect x="145.6" y="92" width="40.8" height="11"/><rect x="30.0" y="103" width="13.6" height="11"/><rect x="70.8" y="103" width="13.6" height="11"/><rect x="125.2" y="103" width="13.6" height="11"/><rect x="145.6" y="103" width="13.6" height="11"/><rect x="179.6" y="103" width="13.6" height="11"/><rect x="36.8" y="114" width="40.8" height="11"/><rect x="91.2" y="114" width="47.6" height="11"/><rect x="145.6" y="114" width="13.6" height="11"/><rect x="179.6" y="114" width="13.6" height="11"/></g><g fill="#ffff55" transform="translate(0 0)"><rect x="36.8" y="70" width="40.8" height="11"/><rect x="91.2" y="70" width="47.6" height="11"/><rect x="145.6" y="70" width="40.8" height="11"/><rect x="30.0" y="81" width="13.6" height="11"/><rect x="70.8" y="81" width="13.6" height="11"/><rect x="91.2" y="81" width="13.6" height="11"/><rect x="145.6" y="81" width="13.6" height="11"/><rect x="179.6" y="81" width="13.6" height="11"/><rect x="30.0" y="92" width="13.6" height="11"/><rect x="70.8" y="92" width="13.6" height="11"/><rect x="91.2" y="92" width="47.6" height="11"/><rect x="145.6" y="92" width="40.8" height="11"/><rect x="30.0" y="103" width="13.6" height="11"/><rect x="70.8" y="103" width="13.6" height="11"/><rect x="125.2" y="103" width="13.6" height="11"/><rect x="145.6" y="103" width="13.6" height="11"/><rect x="179.6" y="103" width="13.6" height="11"/><rect x="36.8" y="114" width="40.8" height="11"/><rect x="91.2" y="114" width="47.6" height="11"/><rect x="145.6" y="114" width="13.6" height="11"/><rect x="179.6" y="114" width="13.6" height="11"/></g></g>
     <text x="220" y="100" font-size="22" font-weight="700" fill="#55ffff">MANAGER</text>
     <text x="220" y="120" font-size="10.5" fill="#ffffff" letter-spacing="1">HERRAMIENTA PARA DIRECTORES</text>
     <text x="220" y="134" font-size="10.5" fill="#ffffff" letter-spacing="1">DE JUEGO OSR</text>
