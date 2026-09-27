@@ -61,6 +61,8 @@ spec:
     - supabase               # postgres con RLS, cron y colas
     - pgtap + playwright     # tirada de salvación contra regresiones
     - dados de 20 caras      # varios, por si acaso
+  reliquias:
+    - arctic-code-vault      # código enterrado en Svalbard: sobrevivirá 1000 años
   conjuros_preparados:
     - «Reversión en caliente» (nivel 3)
     - «Detectar pantallas en blanco» (nivel 1)
