@@ -111,13 +111,13 @@ flowchart LR
 ```
 
 - **Coste de infraestructura: 0 €.** Planes gratuitos, sin servicios externos para la monitorización.
-- **Calidad:** <!-- AUTO:tests -->203<!-- /AUTO:tests --> tests de base de datos (pgTAP) y de extremo a extremo (Playwright) en cada cambio.
+- **Calidad:** <!-- AUTO:tests -->208<!-- /AUTO:tests --> tests de base de datos (pgTAP) y de extremo a extremo (Playwright) en cada cambio.
 - **Seguridad:** toda la lógica sensible con *Row Level Security* y funciones `security definer`; nada de claves en el cliente.
 
 ### En curso
 
 <!-- AUTO:now -->
-- **Escriba de la Marca [v1.13.1](https://github.com/Favashi/escribadelamarca/releases/tag/v1.13.1)** · Corregido: en las misiones ya no aparece «()» cuando un libro no tiene código de publicación.
+- **Escriba de la Marca [v1.14.0](https://github.com/Favashi/escribadelamarca/releases/tag/v1.14.0)** · Elige tu nombre público en el Perfil: es el que se ve en la Comunidad y en tu lista de deseos compartida.
 - **OSR Manager [v0.4.0](https://github.com/Favashi/osr-manager/releases/tag/v0.4.0)**
 <!-- /AUTO:now -->
 
@@ -130,12 +130,12 @@ flowchart LR
 | Publicaciones en el catálogo de Escriba | 118 |
 | Autores de la Marca catalogados | 83 |
 | Aventuras en el buscador | 83 |
-| Libros registrados por los usuarios | 1.120 |
-| Tests en CI de Escriba | 203 |
+| Libros registrados por los usuarios | 1.302 |
+| Tests en CI de Escriba | 208 |
 | Coste de infraestructura | 0 € |
 <!-- /AUTO:stats -->
 
-<sub>Actualizado automáticamente: <!-- AUTO:date -->2026-09-28<!-- /AUTO:date --></sub>
+<sub>Actualizado automáticamente: <!-- AUTO:date -->2026-09-29<!-- /AUTO:date --></sub>
 
 <div align="center">
 
