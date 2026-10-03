@@ -111,13 +111,13 @@ flowchart LR
 ```
 
 - **Coste de infraestructura: 0 €.** Planes gratuitos, sin servicios externos para la monitorización.
-- **Calidad:** <!-- AUTO:tests -->209<!-- /AUTO:tests --> tests de base de datos (pgTAP) y de extremo a extremo (Playwright) en cada cambio.
+- **Calidad:** <!-- AUTO:tests -->221<!-- /AUTO:tests --> tests de base de datos (pgTAP) y de extremo a extremo (Playwright) en cada cambio.
 - **Seguridad:** toda la lógica sensible con *Row Level Security* y funciones `security definer`; nada de claves en el cliente.
 
 ### En curso
 
 <!-- AUTO:now -->
-- **Escriba de la Marca [v1.14.1](https://github.com/Favashi/escribadelamarca/releases/tag/v1.14.1)** · Si un código de barras aparece en varios libros, primero salen los que aún no tienes, y la app te recuerda que puedes escribir el código…
+- **Escriba de la Marca [v1.15.0](https://github.com/Favashi/escribadelamarca/releases/tag/v1.15.0)** · Mejoras internas de administración.
 - **OSR Manager [v0.4.0](https://github.com/Favashi/osr-manager/releases/tag/v0.4.0)**
 <!-- /AUTO:now -->
 
@@ -127,15 +127,15 @@ flowchart LR
 <!-- AUTO:stats -->
 | | |
 |---|---|
-| Publicaciones en el catálogo de Escriba | 118 |
-| Autores de la Marca catalogados | 83 |
-| Aventuras en el buscador | 83 |
-| Libros registrados por los usuarios | 1.422 |
-| Tests en CI de Escriba | 209 |
+| Publicaciones en el catálogo de Escriba | 121 |
+| Autores de la Marca catalogados | 87 |
+| Aventuras en el buscador | 85 |
+| Libros registrados por los usuarios | 1.420 |
+| Tests en CI de Escriba | 221 |
 | Coste de infraestructura | 0 € |
 <!-- /AUTO:stats -->
 
-<sub>Actualizado automáticamente: <!-- AUTO:date -->2026-10-01<!-- /AUTO:date --></sub>
+<sub>Actualizado automáticamente: <!-- AUTO:date -->2026-10-03<!-- /AUTO:date --></sub>
 
 <div align="center">
 
