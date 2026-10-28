@@ -130,12 +130,12 @@ flowchart LR
 | Publicaciones en el catálogo de Escriba | 121 |
 | Autores de la Marca catalogados | 87 |
 | Aventuras en el buscador | 85 |
-| Libros registrados por los usuarios | 1.797 |
+| Libros registrados por los usuarios | 1.926 |
 | Tests en CI de Escriba | 242 |
 | Coste de infraestructura | 0 € |
 <!-- /AUTO:stats -->
 
-<sub>Actualizado automáticamente: <!-- AUTO:date -->2026-10-27<!-- /AUTO:date --></sub>
+<sub>Actualizado automáticamente: <!-- AUTO:date -->2026-10-28<!-- /AUTO:date --></sub>
 
 <div align="center">
 
