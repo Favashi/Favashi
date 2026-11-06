@@ -117,7 +117,7 @@ flowchart LR
 ### En curso
 
 <!-- AUTO:now -->
-- **Escriba de la Marca [v1.19.0](https://github.com/Favashi/escribadelamarca/releases/tag/v1.19.0)** · Retratos para tu perfil: 19 dibujos a plumilla de estilo old school (razas, profesiones y monstruos), en color, blanco y negro o invertid…
+- **Escriba de la Marca [v1.19.1](https://github.com/Favashi/escribadelamarca/releases/tag/v1.19.1)** · Nueva app del mismo autor en la portada: Bestiarium, cartas de monstruos para OSE y La Marca del Este.
 - **OSR Manager [v0.4.0](https://github.com/Favashi/osr-manager/releases/tag/v0.4.0)**
 <!-- /AUTO:now -->
 
@@ -130,12 +130,12 @@ flowchart LR
 | Publicaciones en el catálogo de Escriba | 122 |
 | Autores de la Marca catalogados | 88 |
 | Aventuras en el buscador | 85 |
-| Libros registrados por los usuarios | 1.937 |
+| Libros registrados por los usuarios | 1.941 |
 | Tests en CI de Escriba | 242 |
 | Coste de infraestructura | 0 € |
 <!-- /AUTO:stats -->
 
-<sub>Actualizado automáticamente: <!-- AUTO:date -->2026-11-05<!-- /AUTO:date --></sub>
+<sub>Actualizado automáticamente: <!-- AUTO:date -->2026-11-06<!-- /AUTO:date --></sub>
 
 <div align="center">
 
